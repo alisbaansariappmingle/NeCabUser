@@ -17,7 +17,7 @@ function Header() {
         <Link to="/" className="hover:text-yellow-300 transition-all duration-300">Home</Link>
         <Link to="/service" className="hover:text-yellow-300 transition-all duration-300">Services</Link>
         <Link to="/about" className="hover:text-yellow-300 transition-all duration-300">About Us</Link>
-        <Link to="/contact" className="hover:text-yellow-300 transition-all duration-300">Contact</Link>
+        <Link to="/cantact" className="hover:text-yellow-300 transition-all duration-300">Contact</Link>
       </nav>
 
       {/* Download Button */}

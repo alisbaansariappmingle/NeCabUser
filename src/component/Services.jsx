@@ -2,12 +2,18 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaRupeeSign } from "react-icons/fa";
 import { FaTaxi } from "react-icons/fa";
 import { FaSatelliteDish } from "react-icons/fa";
+import { FaCarAlt } from "react-icons/fa";
+import { SiAirtransat } from "react-icons/si";
+import { MdOutlineAccessTimeFilled } from "react-icons/md";
+import { FaCcAmazonPay } from "react-icons/fa";
+
+
 import React from "react";
 
 const FeaturesSection = () => {
   const features = [
     {
-      icon: <FaPhoneAlt size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+      icon: <FaPhoneAlt size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
       title: "24x7 Helpline",
       description: (
         <>
@@ -17,43 +23,43 @@ const FeaturesSection = () => {
       ),
     },
     {
-      icon: <FaRupeeSign size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+      icon: <FaRupeeSign size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
       title: "No Extra KMs Charge",
       description:
         "We do not charge based on KMs. No extra fare. Get peace of mind so drivers don’t overcharge by detouring.",
     },
     {
-      icon: <FaTaxi size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+      icon: <FaTaxi size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
       title: "Assured Cab",
       description:
         "If you have Booking Confirmation, rest assured you will get cab.",
     },
     {
-      icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+      icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
       title: "GPS Enabled",
       description:
         "Each Cab is GPS Enabled. Now track cab as they arrive to pick you up.",
     },
     {
-        icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+        icon: <FaCarAlt size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
         title: "Dedicated Cab",
         description:
           "just for you",
       },
       {
-        icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+        icon: <SiAirtransat size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
         title: "Home Pickup & Drop",
         description:
           "Your pick-up address can be anywhere in pick-up city and drop address can be anywhere in destination city including Airport.",
       },
       {
-        icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+        icon: <MdOutlineAccessTimeFilled size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
         title: "On-Time Cab",
         description:
           "Using Predictive Algorithm using GPS and Traffic Conditions, each cab is tracked for On-Time Arrival. ",
       },
       {
-        icon: <FaSatelliteDish size={40} className="text-yellow-500 mb-3 border-2 p-2 rounded-full" />,
+        icon: <FaCcAmazonPay size={40} className="text-yellow-500 mb-3 border-2 p-1 rounded-full" />,
         title: "Multi Payment Options",
         description:
           "By Cash at the end of Journey or Pre-Pay via Net-Banking, Credit Card, PayTM wallet plus many more.",

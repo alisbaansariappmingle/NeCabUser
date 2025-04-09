@@ -4,7 +4,7 @@ import halfcar from "../img/halfcar.png"
 const EarnWith = () => {
     return (
         
-            <div className="bg-[#eaffdc] border-y-[10px] border-yellow-500" style={{ borderImage: 'linear-gradient(154deg, #f5c100, #029e5b) 1' }}>
+            <div className="bg-[#e4ffe3] border-y-[10px] border-yellow-500" style={{ borderImage: 'linear-gradient(154deg, #f5c100, #029e5b) 1' }}>
                 <div className=" py-16 flex flex-col md:flex-row items-center justify-between">
 
                     {/* Text Content */}

@@ -41,7 +41,7 @@ const Contactsection = () => {
             type="submit"
             className="mt-4 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded"
           >
-            Request Callback
+           Submit
           </button>
         </form>
       </div>
