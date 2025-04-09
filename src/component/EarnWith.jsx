@@ -10,7 +10,7 @@ const EarnWith = () => {
                     {/* Text Content */}
                     <div className="md:w-1/2 px-20">
                         <p className="text-2xl text-yellow-500 font-semibold mb-2">For Drivers</p>
-                        <h2 className="text-4xl font-bold text-black mb-4">DO YOU WANT TO <br /> EARN WITH US</h2>
+                        <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">DO YOU WANT TO <br /> EARN WITH US</h2>
                         <p className="text-xl text-green-600 mb-6">
                             Join us and start earning with our reliable <br /> platform for drivers.
                         </p>

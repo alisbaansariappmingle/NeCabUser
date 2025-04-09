@@ -17,7 +17,7 @@ const Contactsection = () => {
             <input
               type="text"
               placeholder="Enter your name"
-              className="w-95 p-3 border border-gray-300 rounded-xl bg-white"
+              className="w-full md:w-95 p-3 border border-gray-300 rounded-xl bg-white"
             />
           </div>
           <div>
@@ -25,7 +25,7 @@ const Contactsection = () => {
             <input
               type="email"
               placeholder="Enter your email id"
-              className="w-95 p-3 border border-gray-300 rounded-xl bg-white"
+              className="w-full md:w-95 p-3 border border-gray-300 rounded-xl bg-white"
             />
           </div>
           <div>
@@ -33,7 +33,7 @@ const Contactsection = () => {
             <input
               type="text"
               placeholder="Enter your phone number"
-              className="w-95 p-3 border border-gray-300 rounded-xl bg-white"
+              className="w-full md:w-95 p-3 border border-gray-300 rounded-xl bg-white"
             />
           </div>
 

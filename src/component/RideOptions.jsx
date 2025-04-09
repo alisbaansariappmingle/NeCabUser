@@ -26,15 +26,15 @@ const rideOptions = [
 
 const RideOptions = () => {
   return (
-    <section className="py-16 bg-white text-center px-4">
-      <h2 className="text-4xl font-bold text-black mb-12">
+    <section className="py-5 md:py-16 bg-white text-center px-4">
+      <h2 className="text-2xl md:text-4xl font-bold text-black mb-2 md:mb-12">
         There&apos;s an <span className="text-green-600">NE-CAB</span> ride for everyone
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {rideOptions.map((item, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className=" p-6 rounded-xl mb-4">
+            <div className=" p-6 rounded-xl mb-0 md:mb-4">
               <img src={item.img} alt={item.title} className="w-46 h-36 object-contain" />
             </div>
             <h3 className="text-xl font-semibold text-black mb-2">{item.title}</h3>

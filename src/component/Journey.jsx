@@ -12,10 +12,10 @@ const Journey = () => {
       <h1 className="text-3xl md:text-4xl font-bold text-center text-yellow-600 mb-6">
         About NE-Cab
       </h1>
-      <p className="text-center text-lg md:text-xl text-gray-600 mb-5">
+      <p className="text-center text-md md:text-xl text-gray-600 mb-5">
         Revolutionizing the way you travel — smart, reliable, and effortless.
       </p>
-      <p className="text-center text-lg md:text-[15px] text-gray-600 mb-12">
+      <p className="text-justify md:text-center text-md  md:text-[15px] text-gray-600 mb-12">
       Movement is what we power. It’s our lifeblood. It runs through our veins. 
       It’s what gets us out of bed each morning. It pushes us to constantly 
       reimagine how we can move better. For you. For all the places you want to go. 
@@ -37,13 +37,13 @@ const Journey = () => {
             <FaCogs /> 
             Our Technology
           </h2>
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-700 leading-relaxed text-justify">
             NE-Cab utilizes cutting-edge technology to deliver an exceptional
             user experience. Our app is designed with advanced features that
             make booking rides, managing your profile, and tracking your trips
             effortless.
           </p>
-          <p className="mt-3 text-gray-700 leading-relaxed">
+          <p className="mt-3 text-gray-700 leading-relaxed text-justify">
             Additionally, we use data analytics to continuously optimize our
             operations, ensuring timely rides and improved service delivery.
           </p>
@@ -63,13 +63,13 @@ const Journey = () => {
           <h2 className="text-2xl font-semibold text-yellow-500 flex items-center gap-2">
             <FaMapMarkedAlt /> Join Our Journey
           </h2>
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-700 leading-relaxed text-justify">
             As we look to the future, NE-Cab is committed to expanding our
             reach and enhancing our services. We are constantly innovating to
             introduce new features that make your travel experience even
             better.
           </p>
-          <p className="mt-3 text-gray-700 leading-relaxed">
+          <p className="mt-3 text-gray-700 leading-relaxed text-justify">
             Whether you're commuting to work, heading to an event, or
             exploring a new city, NE-Cab is here to make every journey
             enjoyable.

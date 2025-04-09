@@ -4,14 +4,14 @@ import innovationImg from '../img/mobile-app.png';
 const InnovationSection = () => {
   return (
     <section className="px-4 sm:px-6 lg:px-40 py-10 bg-white text-center justify-center items-center">
-      <div className=" mx-auto flex flex-col lg:flex-row text-center items-center gap-10">
+      <div className="mx-auto flex flex-col lg:flex-row text-center items-center gap-10">
         {/* Left: Image */}
-        <div className="w-full bg-gray-200  lg:w-1/2 max-w-sm flex justify-center text-center bg-gray-200 py-10">
+        <div className="w-full bg-gray-200  lg:w-1/2 max-w-sm flex justify-center text-center bg-gray-200 py-5">
 
           <img
             src={innovationImg}
             alt="Innovation"
-            className="w-full"
+            className="w-full h-auto"
           />
         </div>
 
